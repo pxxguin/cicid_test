@@ -2,7 +2,7 @@ name: Variables
 on: push
 jobs:
   print:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     env:
       USERNAME: ${{vars.USERNAME}}
     steps:
