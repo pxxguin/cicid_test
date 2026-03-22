@@ -1,7 +1,7 @@
 name: Variables
 on: push
 jobs:
-  print:
+  print-variables:
     runs-on: ubuntu-latest
     env:
       USERNAME: ${{vars.USERNAME}}
